@@ -1,0 +1,12 @@
+pandas==1.2.3
+sqlalchemy==1.3.22
+psycopg2-binary==2.8.6
+openpyxl
+xlrd
+lxml
+pyodbc
+mssql
+pymssql
+jupyter
+panel
+ipywidgets
