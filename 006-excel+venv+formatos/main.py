@@ -1,11 +1,12 @@
 import openpyxl
-from openpyxl.styles import PatternFill, Font
 
 book = openpyxl.load_workbook('test.xlsx')
 
 hoja = book.active
 
+from openpyxl.styles import PatternFill, Font
 hoja['A1'] = 'Hello World 2'
+
 hoja['A4'].fill = PatternFill('solid', fgColor='ff0000') # rojo
 hoja['A5'].fill = PatternFill('solid', fgColor='ffc000') # naranja
 hoja['A6'].fill = PatternFill('solid', fgColor='ffff00') # amarillo

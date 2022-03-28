@@ -45,3 +45,11 @@ print("len(myStr):  ", len(myStr))
 print("('    HOLA MUNDO    ').strip():  ", ('    HOLA MUNDO    ').strip())
 print("('    HOLA MUNDO    ').lstrip():  ", ('    HOLA MUNDO    ').lstrip())
 print("('    HOLA MUNDO    ').rstrip():  ", ('    HOLA MUNDO    ').rstrip())
+
+
+palabra = 'abc'
+print(reversed('abc'))
+print(list(reversed('ABC')))
+
+# print(palabra.len())
+print(len(palabra))
